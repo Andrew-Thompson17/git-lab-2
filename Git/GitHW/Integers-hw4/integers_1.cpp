@@ -4,11 +4,45 @@
 #include <cmath>
 using namespace std;
 
+/**
+ * Function : printMenu
+ *            prints the menu which the user uses to select
+ *            what they would like to do.
+ */
 void printMenu();
+/**
+ * Function: getNumDigits
+ *          Finds how many digits are in an integer
+ * @param number - The number that is being entered
+ */
 int getNumDigits(int number);
+/**
+ * Function: getSum
+ *          Finds the sum of each digit in the given number
+ * @param number - The number that is entered by the user
+ * @return - the sum of digits 
+ */
 int getSum(int number);
+/**
+ * Function: getNthDigit
+ *          Outputs what digit is shown when given a position
+ *          for the digit you would like to have
+ * @param number - The number given by the user
+ * @param n - The digit 
+ * @return - The digit that is found by the position given
+ */
 int getNthDigit(int number, int n);
+/**
+ * Function: isPalindrome
+ *          Finds whether or not the number entered
+ *          is a palindrome.
+ * @param number - The number entered by the user
+ * @return - true or false whether or not it is a palindrome
+ */
 bool isPalindrome(int number);
+/** Function: exit
+ *          Exits the program and tells the user "goodbye"
+ */
 void exit();
 int number;
 int n; 
